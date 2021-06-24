@@ -1,0 +1,74 @@
+body {
+    font-family: helvetica, arial;
+    margin: 0; /* atributo adicionado para ajudar na configuração do plano de fundo */
+    background: linear-gradient(#e69e0e, #f8c560)
+}
+
+.calculadora-dano {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(199, 193, 193);
+    box-shadow:15px 15px 15px black; /* atributo adicionado */
+    border-radius: 20px;
+    background: linear-gradient(#e1ebeb,#595c61) /* atributo adicionado */
+}
+
+h2{ /* sessão adicionada para estilizar os subtitulos  */
+    border: solid;
+    border-radius: 20px;
+    padding: 5px;
+    background: linear-gradient(#6a94f0, #2a4aa1 )
+      
+}
+
+.linha-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.elementos-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.elemento {
+    cursor: pointer;
+}
+
+.elemento p {
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background: linear-gradient(#6a94f0, #25408a ); /* atributo adicionado */
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selecionado {
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#dano {
+    font-size: medium;
+    font-weight: bold;
+}
+
+/**footer{
+    text-align: center;
+}**/
