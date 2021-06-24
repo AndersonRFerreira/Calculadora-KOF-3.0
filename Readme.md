@@ -1,1 +1,1 @@
-Acesse esta calculadora em: ![calculadora KOF](https://calculadora-kof-3.herokuapp.com/)
+Acesse esta calculadora em: ![calculadoraKOF](https://calculadora-kof-3.herokuapp.com/)
